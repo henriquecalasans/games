@@ -38,6 +38,8 @@ while control:
                 tentatives += 1
             except KeyboardInterrupt:
                 print("Incorrect Key!")
+        print("Game Over!!!")
+        control = False
 
     except ValueError:
         print("No valid number")
@@ -59,3 +61,4 @@ while control:
 
             except KeyboardInterrupt:
                 print("Incorrect Key!")
+
