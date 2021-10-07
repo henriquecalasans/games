@@ -39,6 +39,7 @@ while control:
             except KeyboardInterrupt:
                 print("Incorrect Key!")
         print("Game Over!!!")
+        print("Secret number is: {}".format(secret_number))
         control = False
 
     except ValueError:
