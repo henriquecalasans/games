@@ -1,18 +1,16 @@
-# This is a sample Python script.
+import guess as gs
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    game = int(input("Which game do you want to play?{}{}{}{}".
+                     format("\n", "1 - Guess game", "\n2 - Soccer" "\n3 - Skyrim ", "\n:")))
 
+    if game == 1:
+        print("Playing Guess game...")
+        gs.play()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    elif game == 2:
+        print("Playing Soccer...")
+        exit()
+
+    elif game == 3:
+        print("Playing Skyrim...")
