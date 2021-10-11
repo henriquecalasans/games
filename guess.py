@@ -8,17 +8,18 @@ def play():
 
     control = True
 
+    lv_easy = 10
+    lv_medium = 5
+    lv_hard = 3
+
+    score = 1000
+    tentatives = 0
+
     while control:
 
         try:
             level = int(input("Choose the level  {}1 - Easy {}2 - Medium {}3 - Hard {}:"
                               .format("\n", "10 Rounds\n", "5 Rounds\n", "3 Rounds\n")))
-
-            lv_easy = 10
-            lv_medium = 5
-            lv_hard = 3
-            tentatives = 0
-            score = 1000
 
             if level == 1:
                 round_game = lv_easy
