@@ -28,7 +28,6 @@ def play():
                 round_game = lv_hard
 
             secret_number = rd.randrange(1, 101)
-            print(secret_number)
 
             while tentatives < round_game:
 
@@ -87,3 +86,7 @@ def play():
 
                 except KeyboardInterrupt:
                     print("Incorrect Key!")
+
+
+if __name__ == '__main__':
+    play()
